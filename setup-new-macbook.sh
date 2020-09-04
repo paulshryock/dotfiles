@@ -1,6 +1,5 @@
 # Update
 ./update/macos.sh
-./update/app-store-apps.sh
 ./update/xcode-command-line-tools.sh
 
 # Install
@@ -11,6 +10,9 @@
 ./install/ruby-gems.sh
 ./install/dracula-color-scheme.sh
 ./install/sublime-text-plugins.sh
+
+# Update
+./update/app-store-apps.sh
 
 # Setup
 ./setup/zsh.sh
