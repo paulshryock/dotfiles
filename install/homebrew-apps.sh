@@ -5,6 +5,7 @@ brew install git php composer kubectl mas
 
 # Install gui apps via Cask
 brew cask install \
+  adobe-acrobat-pro \
   cyberduck \
   docker \
   firefox \
