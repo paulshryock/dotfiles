@@ -21,4 +21,5 @@ brew cask install \
   sublime-text \
   visual-studio-code \
   webex-meetings \
+  wp-cli \
   zoomus
