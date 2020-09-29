@@ -1,7 +1,13 @@
 #!\bin\bash
 
 # Install cli apps via Homebrew
-brew install git php composer kubectl mas
+brew install \
+  composer \
+  git \
+  kubectl \
+  mas \
+  php \
+  wp-cli
 
 # Install gui apps via Cask
 brew cask install \
@@ -21,5 +27,4 @@ brew cask install \
   sublime-text \
   visual-studio-code \
   webex-meetings \
-  wp-cli \
   zoomus
