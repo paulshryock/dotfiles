@@ -12,6 +12,7 @@ brew install \
 # Install gui apps via Cask
 brew cask install \
   adobe-acrobat-pro \
+  adobe-creative-cloud \
   cyberduck \
   docker \
   firefox \
