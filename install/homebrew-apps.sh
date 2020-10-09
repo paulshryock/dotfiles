@@ -17,6 +17,8 @@ brew cask install \
   docker \
   firefox \
   google-chrome \
+  imagemagick \
+    ghostscript \
   imageoptim \
   iterm2 \
   lastpass \
