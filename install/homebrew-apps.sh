@@ -10,9 +10,10 @@ brew install \
   wp-cli
 
 # Install gui apps via Cask
-brew cask install \
+brew install --cask \
   adobe-acrobat-pro \
   adobe-creative-cloud \
+  apple-juice \
   cyberduck \
   docker \
   firefox \
@@ -31,3 +32,6 @@ brew cask install \
   visual-studio-code \
   webex-meetings \
   zoomus
+
+# Remove quarantine attribute from downloaded application packages
+xattr -cr /Applications/Apple\ Juice.app
