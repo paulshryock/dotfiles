@@ -1,0 +1,12 @@
+alias realogy="cd $REALOGY_DIR"
+
+# Projects
+fhp() {
+  up () {
+    npm run watch:server
+  }
+
+  realogy
+  cd fair-housing-pledge
+  eval ${@}
+}

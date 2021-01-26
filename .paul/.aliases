@@ -1,0 +1,26 @@
+# Docker
+alias dps="docker ps"
+
+# pshry.com
+alias paul:dir="cd $PAUL_DIR"
+paul() {
+  up() {
+    npm start
+  }
+
+  rbash() {
+    exp $PAUL_SSH_PASSWORD ssh $PAUL_SSH_USERNAME@$PAUL_SSH_IP_ADDRESS
+  }
+
+  paul:dir
+  cd paul-shryock
+  eval ${@}
+}
+
+# Projects
+alias npsk="paul:dir && cd new-project-starter-kit"
+alias cutw="paul:dir && cd clean-up-the-web"
+alias dotfiles="paul:dir && cd dotfiles"
+
+# Client work
+. ~/.realogy/.aliases

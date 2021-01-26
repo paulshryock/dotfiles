@@ -1,0 +1,8 @@
+# NVM (node version manager)
+export NVM_DIR="$HOME/.nvm"
+
+# N (node version manager)
+export N_PRESERVE_NPM=1
+
+. ~/.paul/.environment-variables
+. ~/.nba/.environment-variables

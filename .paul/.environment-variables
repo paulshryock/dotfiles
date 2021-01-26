@@ -1,0 +1,17 @@
+# My files
+export -r PAUL_DIR="$HOME/desktop/paul"
+
+# Mozilla Firefox Developer token
+export -r AMO_JWT_ISSUER=""
+export -r AMO_JWT_SECRET=""
+
+# SSH
+export -r PAUL_SSH_USERNAME=""
+export -r PAUL_SSH_IP_ADDRESS=""
+export -r PAUL_SSH_PASSWORD=""
+
+# Default text editor
+# export EDITOR="/Applications/Sublime\ Text.app/Contents/MacOS/Sublime\ Text"
+
+# Client work
+. ~/.realogy/.environment-variables
